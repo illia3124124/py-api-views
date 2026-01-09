@@ -75,10 +75,10 @@ class ActorList(
     serializer_class = ActorSerializer
 
     def get(self, request, *args, **kwargs):
-       return self.list(request, *args, **kwargs)
+        return self.list(request, *args, **kwargs)
 
     def post(self, request, *args, **kwargs):
-       return self.create(request, *args, **kwargs)
+        return self.create(request, *args, **kwargs)
 
 
 class ActorDetail(
